@@ -1,0 +1,5 @@
+# js code for heroku
+# build
+
+.env
+node_modules

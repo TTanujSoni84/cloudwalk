@@ -1,0 +1,8 @@
+{
+    "email":"test@gmail.com",
+    "interval":5,
+    "status":"HEALTHY",
+    "timeout":15,
+    "healthy_threshold":3,
+    "unhealthy_threshold":3
+}

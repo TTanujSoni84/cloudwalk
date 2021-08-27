@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "outDir": "build",
+    "rootDir": ".",
+    "baseUrl": ".",
+    "lib": ["ESNext", "DOM"],
+    "strict": true,
+    "typeRoots": ["src/types/index.ts", "node_modules/@types"],
+    "esModuleInterop": true
+  },
+  "include": ["app/**/*.ts", "app/**/*.json"],
+  "exclude": ["node_modules", "build"]
+}
